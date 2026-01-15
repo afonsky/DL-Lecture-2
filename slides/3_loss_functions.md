@@ -182,6 +182,7 @@ output:  tensor(1.2850, grad_fn=<L1LossBackward>)
 * Regression problems. It is considered to be more robust to outliers.
 
 <span style="color:grey"><small> Slides 23-29 are based on the [PyTorch documentation](https://pytorch.org/docs/stable/nn.html) and on the [neptune.ai guide](https://neptune.ai/blog/pytorch-loss-functions).</small></span>
+
 ---
 
 # Usage of common Loss Functions
