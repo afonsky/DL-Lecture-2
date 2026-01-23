@@ -45,19 +45,23 @@ class: my-cool-content-on-the-right
 # Distribution Shift: Covariate Shift
 
 <div>
+<center>
   <figure>
     <img src="/cat-dog-train.png" style="width: 600px !important;">
   </figure>
+</center>
 </div>
 <br>
 
 <div>
+<center>
   <figure>
     <img src="/cat-dog-test.png" style="width: 600px !important;">
     <figcaption style="color:#b3b3b3ff; font-size: 11px; position: relative; top: 10px">Images source:
       <a href="https://d2l.ai/chapter_linear-classification/environment-and-distribution-shift.html">d2l.ai Top: Fig. 4.7.1, Bottom: Fig. 4.7.1. Train and Test data for distinguishing cats and dogs</a>
     </figcaption>
   </figure>
+</center>
 </div>
 
 ---
@@ -76,12 +80,14 @@ class: my-cool-content-on-the-right
 # Distribution Shift: Concept Shift
 
 <div>
+<center>
   <figure>
     <img src="/popvssoda.png" style="width: 600px !important;">
     <figcaption style="color:#b3b3b3ff; font-size: 11px; position: relative; top: 10px">Image source:
       <a href="https://d2l.ai/chapter_linear-classification/environment-and-distribution-shift.html">d2l.ai Fig. 4.7.3. Concept shift for soft drink names in the United States</a>
     </figcaption>
   </figure>
+</center>
 </div>
 
 ---

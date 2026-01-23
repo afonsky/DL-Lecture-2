@@ -1,13 +1,26 @@
-# Outline
+# Course Logistics
 
-* <Link to="4">Norms and Weight Decay</Link>
+<br>
+<div class="grid grid-cols-[2fr_3fr] gap-30">
+<div>
 
-* <Link to="11">Linear Neural Networks for Classification</Link>
+### HW 1. PyTorch practice
 
-* <Link to="14">Softmax Regression</Link>
+Release Date: 23.01.2026 (Today)
 
-* <Link to="18">Loss Functions</Link>
+Deadline: \
+(Soft) 23:59 MSK 01.02.2026 \
+(Hard) 18:00 MSK 02.02.2026
+</div>
+<div>
+  <figure>
+    <img src="/pytorch-logo-dark.png" style="width: 600px !important;">
+    <figcaption style="color:#b3b3b3ff; font-size: 11px; position: relative; left:250px">Image source:
+      <a href="https://github.com/pytorch/pytorch/blob/main/docs/source/_static/img/pytorch-logo-dark.png">PyTorch logo</a>
+    </figcaption>
+  </figure>
+</div>
+</div>
+<br>
 
-* <Link to="32">Generalization in Classification</Link>
-
-* <Link to="36">Distribution Shift</Link>
+#### [https://edu.hse.ru/mod/assign/view.php?id=1944225](https://edu.hse.ru/mod/assign/view.php?id=1944225)

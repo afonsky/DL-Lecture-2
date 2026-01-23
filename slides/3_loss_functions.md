@@ -20,13 +20,16 @@ class: my-cool-content-on-the-right
 
 A loss function is a function $L:(z,y)\in \R \times Y \rightarrow L(z,y) \in R$ that takes as inputs the predicted value $z$ corresponding to the real data value $y$ and outputs how different they are.
 
+<br>
 <div>
+<center>
   <figure>
     <img src="/Loss_functions_cs-229.png" style="width: 750px !important;">
-    <figcaption style="color:#b3b3b3ff; font-size: 11px; position: absolute; right: 60px; top: 60px"><br>Image source:
+    <figcaption style="color:#b3b3b3ff; font-size: 11px; position: relative;"><br>Image source:
       <a href="https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-supervised-learning">by Shervine Amidi</a>
     </figcaption>
   </figure>
+  </center>
 </div>
 
 ---
@@ -63,14 +66,15 @@ zoom: 0.9
 
 </small>
 </small>
-
 <div>
+<center>
   <figure>
     <img src="/Cross_entropy_1.svg" style="width: 680px !important;">
     <figcaption style="color:#b3b3b3ff; font-size: 11px; position: absolute; right: 60px; top: 60px"><br>Example inspired by:
       <a href="https://www.youtube.com/watch?v=6ArSys5qHAU">Josh Starmer's video</a>
     </figcaption>
   </figure>
+</center>
 </div>
 
 ---
@@ -91,12 +95,14 @@ zoom: 0.9
 </small>
 
 <div>
+<center>
   <figure>
     <img src="/Cross_entropy_2.svg" style="width: 680px !important;">
     <figcaption style="color:#b3b3b3ff; font-size: 11px; position: absolute; right: 60px; top: 60px"><br>Example inspired by:
       <a href="https://www.youtube.com/watch?v=6ArSys5qHAU">Josh Starmer's video</a>
     </figcaption>
   </figure>
+</center>
 </div>
 
 ---
@@ -117,12 +123,14 @@ zoom: 0.9
 </small>
 
 <div>
+<center>
   <figure>
     <img src="/Cross_entropy_3.svg" style="width: 680px !important;">
     <figcaption style="color:#b3b3b3ff; font-size: 11px; position: absolute; right: 60px; top: 60px"><br>Example inspired by:
       <a href="https://www.youtube.com/watch?v=6ArSys5qHAU">Josh Starmer's video</a>
     </figcaption>
   </figure>
+</center>
 </div>
 
 ---
@@ -142,15 +150,21 @@ zoom: 0.9
 </small>
 </small>
 
-<span style="margin-left: 400px;">Total Cross Entropy = 0.56 + 0.54 + 0.65 = 1.75</span>
+<br>
 
+<div class="grid grid-cols-[2fr_3fr] gap-40">
 <div>
   <figure>
-    <img src="/Log_loss.png" style="width: 250px !important;">
+    <img src="/Log_loss.png" style="width: 350px !important;">
     <figcaption style="color:#b3b3b3ff; font-size: 11px; position: absolute;"><br>Image source:
       <a href="https://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html">ml-cheatsheet.readthedocs.io</a>
     </figcaption>
   </figure>
+</div>
+<div>
+
+##### Total Cross Entropy = 0.56 + 0.54 + 0.65 = 1.75
+</div>
 </div>
 
 ---
@@ -181,7 +195,9 @@ output:  tensor(1.2850, grad_fn=<L1LossBackward>)
 
 * Regression problems. It is considered to be more robust to outliers.
 
-<span style="color:grey"><small> Slides 23-29 are based on the [PyTorch documentation](https://pytorch.org/docs/stable/nn.html) and on the [neptune.ai guide](https://neptune.ai/blog/pytorch-loss-functions).</small></span>
+<br>
+
+<span style="color:grey"><small> Slides 28-31, 33-35 are based on the [PyTorch documentation](https://pytorch.org/docs/stable/nn.html) and on the [neptune.ai guide](https://neptune.ai/blog/pytorch-loss-functions).</small></span>
 
 ---
 
