@@ -130,3 +130,18 @@ zoom: 0.9
   - Don't regularize the bias term (or use much smaller $\lambda$)
 
 ---
+
+# Further Reading on Weight Decay
+
+* It’s totally remarkable that there are at least three distinct mechanisms of WD
+  * Regularization when paired with stochastic noise
+  * Enhancing optimization of the training loss
+  * Ensuring stability of low-precision training
+* Interestingly, AdamW was introduced only as a better regularization method and now every LLM cites it without critical reassessment of its effect!
+* Our intuition: decoupling WD is likely to be not necessary, it just eases the hyperparameter tuning
+* In modern deep learning, WD is rarely useful as an explicit regularizer but instead its adoption is due to its effect on the training dynamics
+
+
+<br>
+
+<span style="color:grey"><small> Slide credit: [https://www.andriushchenko.me/assets/pdf/Why Do We Need Weight Decay in Modern Deep Learning.pdf](https://www.andriushchenko.me/assets/pdf/Why%20Do%20We%20Need%20Weight%20Decay%20in%20Modern%20Deep%20Learning.pdf)</small></span>

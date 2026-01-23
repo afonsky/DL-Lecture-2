@@ -52,6 +52,39 @@ zoom: 0.9
 
 ---
 
+# Cross Entropy on Iris Flower Data Set
+
+* Let’s explore famous [Iris data set](https://en.wikipedia.org/wiki/Iris_flower_data_set)
+* Goal: classify iris species based on petal and sepal widths and lengths (total 4 features)
+* 3 classes (species)
+* 50 observations per class
+
+<br>
+<center>
+<div class="grid grid-cols-[2fr_2fr_2fr] gap-10">
+<div>
+  <figure>
+    <img src="/iris_setosa.png" style="width: 200px">
+  </figure>
+</div>
+<div>
+  <figure>
+    <img src="/iris_versicolor.png" style="width: 200px">
+  </figure>
+</div>
+<div>
+  <figure>
+    <img src="/iris_virginica.png" style="width: 200px">
+  </figure>
+</div>
+</div>
+</center>
+<br>
+
+<span style="color:grey"><small> Images source: [https://en.wikipedia.org/wiki/Iris_flower_data_set](https://en.wikipedia.org/wiki/Iris_flower_data_set)</small></span>
+
+---
+
 # Cross Entropy
 <div></div>
 
@@ -197,7 +230,7 @@ output:  tensor(1.2850, grad_fn=<L1LossBackward>)
 
 <br>
 
-<span style="color:grey"><small> Slides 28-31, 33-35 are based on the [PyTorch documentation](https://pytorch.org/docs/stable/nn.html) and on the [neptune.ai guide](https://neptune.ai/blog/pytorch-loss-functions).</small></span>
+<span style="color:grey"><small> Slides 30-33, 35-37 are based on the [PyTorch documentation](https://pytorch.org/docs/stable/nn.html) and on the [neptune.ai guide](https://neptune.ai/blog/pytorch-loss-functions).</small></span>
 
 ---
 
